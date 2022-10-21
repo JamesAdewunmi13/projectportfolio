@@ -46,9 +46,3 @@ ORDER BY Percentage desc
 SELECT studentid, G1, G2, G3, studytime FROM Maths$
 WHERE failures > 0
 ORDER BY studytime;
-
-SELECT COUNT(*) as N FROM Maths$
-WHERE failures > 0 AND G3 BETWEEN 0 AND 8;
-
-SELECT COUNT(*) as D FROM Maths$
-WHERE G3 BETWEEN 0 AND 8 ;
